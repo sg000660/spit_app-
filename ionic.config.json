@@ -1,0 +1,7 @@
+{
+  "name": "spit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

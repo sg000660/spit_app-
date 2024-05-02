@@ -1,0 +1,79 @@
+ion-menu::part(backdrop) {
+    background-color: rgba(255, 0, 255, 0.5);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(255, 0, 255, 0.18);
+  }
+  ion-content{
+    text-align: center;
+    --ion-background-color: rgb(247, 240, 229);
+}
+
+  @media (max-width: 600px) {
+    ion-card {
+      width: 95%;
+      background-color: rgb(255, 233, 192);
+    }
+  }
+  ion-list{
+    background-color: rgba(255, 166, 0, 0.466);
+  }
+  ion-item{
+    background-color: rgba(255, 166, 0, 0.466);
+    
+  }
+
+  img{
+    width: 100%;
+  }
+  ion-title{
+    text-align: center;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }    
+  #title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color:rgb(247, 73, 5);
+
+  }
+  ion-card-subtitle{
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  ion-card-content{
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+    font-family: cursive;
+    padding: 16px; /* Adjust padding as needed */
+    background-color: #f4f4f4; /* Background color */
+    border-radius: 8px; /* Border radius */
+    text-shadow: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    
+    color: rgb(245, 133, 6);
+  }
+  #logo{
+    width: 120px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Add some margin to provide spacing around the logo */
+    margin: 0;
+  }
+ion-toolbar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    --ion-background-color: rgb(240, 162, 89);
+}
+#tool{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    --ion-background-color: rgb(214, 134, 59);
+}
+ion-label{
+  color: orangered;
+}
+#bold{
+  color: red;
+}

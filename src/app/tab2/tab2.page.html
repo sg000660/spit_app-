@@ -1,0 +1,95 @@
+<ion-app>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-title>Menu Content</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    
+    <ion-content class="ion-padding"><ion-content color="light">
+      <ion-list [inset]="true">
+        <ion-item routerLink="/aboutus">
+          <ion-label>About Us</ion-label><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        
+        <ion-item routerLink="/courses">
+          <ion-label>Departments </ion-label><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item routerLink="/events">
+          <ion-label>Events</ion-label><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item href="https://www.spit.ac.in/placements/">
+          <ion-label >Placements</ion-label><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item href="https://www.spit.ac.in/admissions/">
+          <ion-label >Admissions</ion-label ><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item href="https://www.spit.ac.in/about/contact/" >
+          <ion-label >Contact</ion-label><ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+      </ion-list>
+    </ion-content></ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content"> 
+      <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Home Page</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+  <!--Content-->  
+    <ion-content> 
+      <!-- Hero Section -->
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3PZmpHyOWiOREP2Sn0mFvq5dh1J4x4Mx9iA4TKWGvGEmCsVdyQsNkdeAoB1T49h6m6xI&usqp=CAU" alt="College Campus">
+      </div>
+        <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDA-AttMMbQlZJ4IcdFrTGhuxNOnJuqPLkWR69szKgOg&s">
+        <div>
+        <ion-card-title id="title">Welcome to Sardar Patel Institute of technology</ion-card-title>
+        <ion-card-subtitle>Where Innovation Meets Excellence</ion-card-subtitle>
+      </div>
+    
+      <!-- vision Section -->
+      <ion-card>
+        <ion-toolbar ><ion-card-title>Our Vision</ion-card-title></ion-toolbar>
+        <ion-card-content>
+          "Keeping in view the growing and changing needs of Industry and society, we at S.P.I.T. are committed to 
+          creating an environment which will raise the intellectual and moral standards of our students. Our endeavor
+           is to strive for the overall development of students, thereby enabling them to accept challenges. In tune 
+           with this our vision is <b id="bold"><i >To build a renowned institute which will produce graduate engineers with global competency and social sensitivity.</i></b>"
+        </ion-card-content>
+      </ion-card>
+  
+      <!--mission-->
+      <ion-card>
+        <ion-toolbar ><ion-card-title>Our Mission</ion-card-title></ion-toolbar>
+        <ion-card-content>
+          "Provide high quality education in engineering and technology promoting the Indian Values and Ethos that will prepare the participants to lead lives of personal integrity and civic responsibility in a global society.
+          Promote an Educational Environment that combines academic study with the excitement of intellectual curiosity for engineers of tomorrow.
+          Enhance career opportunities for students through Industry-Institute interaction, value-added courses and projects in cutting edge technology.
+          Inculcate Entrepreneurial mindset in students to make them job creators.
+          Focus on applied research to create next generation technologies."
+        </ion-card-content>
+      </ion-card>
+    
+      <!-- Admissions Section -->
+      <ion-card>
+        <ion-toolbar id="tool"><ion-card-title>Admissions</ion-card-title></ion-toolbar>
+        <ion-card-content>Ready to join us? Learn more about our admission requirements and application process <a href="https://www.spit.ac.in/admissions/">here</a>.</ion-card-content>
+      </ion-card>
+  
+    <ion-card>
+        <ion-content>&copy; 2024 MCA College. All rights reserved.</ion-content>
+    </ion-card> 
+  </ion-content> 
+  </div>
+</ion-app>

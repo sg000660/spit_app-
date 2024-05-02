@@ -1,0 +1,24 @@
+ion-toolbar{
+    text-align: center;
+}
+ion-card-subtitle{
+    padding: 15px;
+    font-family: cursive;
+    font-size: larger;
+    color: rgb(10, 96, 153);
+    text-align: center;
+}
+#image{
+    width: 120px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Add some margin to provide spacing around the logo */
+    margin: 0;
+}
+ion-card-title{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(252, 138, 9);
+}
+ion-card{
+    text-align: center;
+}

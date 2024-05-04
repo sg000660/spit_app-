@@ -1,0 +1,1 @@
+This practical is based on the ionic framework using angular. It contains components of ionic frameworks to make app attractive and interactive. For the functions, javascript is used and CSS is used to make project more attractive. 
